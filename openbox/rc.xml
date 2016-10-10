@@ -43,7 +43,7 @@
   </placement>
   <theme>
     <name>yellow</name>
-    <titleLayout>NLIMC</titleLayout>
+    <titleLayout>LIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
       N: window icon
@@ -177,24 +177,24 @@
     <!-- 'Left', 'Middle', 'Right' -->
   </dock>
   <keyboard>
-  	  <!-- A test -->
-  	  <!-- Window Tiling: Emulates Windows 7 Snap feature -->
-<keybind key="W-Left">
-  <action name="UnmaximizeFull"/>
-  <action name="MaximizeVert"/>
-  <action name="MoveResizeTo">
-    <width>50%</width>
-  </action>
-  <action name="MoveToEdgeWest"/>
-</keybind>
-<keybind key="W-Right">
-  <action name="UnmaximizeFull"/>
-  <action name="MaximizeVert"/>
-  <action name="MoveResizeTo">
-    <width>50%</width>
-  </action>
-  <action name="MoveToEdgeEast"/>
-</keybind>
+    <!-- A test -->
+    <!-- Window Tiling: Emulates Windows 7 Snap feature -->
+    <keybind key="W-Left">
+      <action name="UnmaximizeFull"/>
+      <action name="MaximizeVert"/>
+      <action name="MoveResizeTo">
+        <width>50%</width>
+      </action>
+      <action name="MoveToEdgeWest"/>
+    </keybind>
+    <keybind key="W-Right">
+      <action name="UnmaximizeFull"/>
+      <action name="MaximizeVert"/>
+      <action name="MoveResizeTo">
+        <width>50%</width>
+      </action>
+      <action name="MoveToEdgeEast"/>
+    </keybind>
     <chainQuitKey>C-g</chainQuitKey>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
